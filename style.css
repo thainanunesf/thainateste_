@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,200&family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Pacifico&display=swap');
+ 
+ *{margin:0;}
+
+body{
+background-color:#FFCFD9;
+}
+
+header, img{
+    width: 100%;
+    height: 380px;
+
+}
+
+ nav{
+    background-color: #FFADBB;
+    text-align: center;
+    padding: 10px; 
+
+
+ }
+
+a{  
+    font-family:Arial;
+    text-decoration: none;
+   
+}
+.a-menu{  
+    margin-right: 40px;
+    font-weight: bold;
+
+}
+
+.a-menu:link, .a-menu:visited{
+    color: #000000;
+}
+.a-menu:hover, .a-menu:active{
+    color: #FFF;
+}
+
+article{
+    width:100%;
+    background-color:;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+h1{
+    color: rgb(212, 37, 125);
+    text-align: center;
+    font-size: 3rem; 
+    font-family: Lobster;
+    margin-bottom: 20px;
+}
+p{color: #000000;
+    text-align:justify;
+    font-family: Arial;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+section{ padding: 20px;
+}
+h2{
+    color: rgb(212, 37, 125);
+    text-align: left;
+    font-size: 45px; 
+    font-family: Dancing Script;
+}
+
+#secao-produtosmaisvendidos{ 
+    background-color: #FFADBB;
+    font-family: Arial; 
+}
+
+#secao-produtosmaisvendidos h2{
+    color: #FFF;
+}
+
+#secao-produtosmaisvendidos p{
+    color: #FFF;
+    margin-top: 20px;
+}
+ul{
+    list-style-type: circle;
+    padding: 20px 50px;
+}
+li{
+    color: #FFF;
+    font-family: Archivo;
+    margin-bottom:10px;
+
+}
+
+#secao-produtosaamostra{
+    background-color: #fbd5e5;
+    font-family: Arial;
+
+}
+.card{
+    background-color: #fff;
+    margin:10px;
+    width: 25%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 04px 08px #FFADBB;
+    transition: 0.5s;
+}
+
+.card:hover{
+     box-shadow: 08px 16px #FFADBB;
+}
+.card-conteudo p{
+    color: #000;
+    line-height: 20px;
+    text-align: justify;
+    font: 1rem;
+
+}
+h3{ color: rgb(212, 37, 125);
+    text-align: center;
+    font-size: 2rem; 
+    font-family: Dancing Script;
+    margin-bottom: 10px;
+
+}
+#conteudo{
+    display: flex;
+}
+
+#secao-maisinformaçoes{
+    font-family: Arial;
+}
+
+#secao-maisinformaçoes p{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#conteudo-informaçoes{
+    display: flex;
+    width: ;
+
+}
+
+.coluna-conteudo{
+    padding: 20px;
+}
+
+.container-imagens{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+.img-icones{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+    align-items: center;
+}
+
+video{
+    width: 600px;
+}
+footer{
+     background-color: #FFADBB;
+     padding: 10px;
+
+}
+footer p{
+text-align: center;
+color: #000;
+}
+footer a{
+color: rgb(212, 37, 125);
+}
+
+footer a:hover{
+    color: #fff;
+}
+
+//* pagina encomenda*//
+
+#pag-encomendas{
+	
+}
+
+#pag-encomendas p{
+	text-align: center;
+	margin-bottom:20px;
+	
+}
+
+form{
+	
+	width: 400px;
+	margin: 0 auto;
+	border-radius: 10px;
+	
+}
+input, select, textarea{ 
+	color:#000;
+	font-family: Archivo;
+	width:100%;
+	height: 30px;
+	margin-bottom:10px;
+	padding-left:5px;
+	box-sizing: border-box;
+	border: 1px solid rgb(212, 37, 125);
+}
+label, fieldset,input, select{
+	font: 1rem 'Archivo';
+}
+fieldset{
+	border: 1px solid rgb(212, 37, 125);
+	margin-bottom:10px;
+	padding:10px;
+}
+
+
+#data-hora-qtd{
+	display:flex;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	width:15px;
+	height:15px;
+	margin-left:50px;
+	
+}
+textarea{
+	height:80px;
+}
+
+#botoes-form{
+	display:flex;
+
+}
+input[type="submit"], input[type="reset"]{
+	margin:20px;
+	background-color:rgb(212, 37, 125);
+	cursor: pointer; 
+	color: #000;
+	border: 0;
+	border-radius:5px;
+	
+}
+input[type="submit"]{
+	background-color:#FFADBB;
+}

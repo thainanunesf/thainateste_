@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="AUTOR" content="Thainá Cassiano" />
+	<meta name="keywords" content="Thainá doceria,doces,brigadeiros,brownie,cone,bolo"/>
+	<meta name="description" content="Doceria artesanal, doces de qualidade direto para sua casa">
+    <title>Thainá Doceria</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+	<img src="img/Banner.png">
+	</header>
+	
+		 <nav>
+	<a class="a-menu" href="index.html">HOME</a>
+	<a class="a-menu" href="index.html#secao-sobrenos">SOBRE NÓS</a>
+	<a class="a-menu" href="index.html#secao-produtosmaisvendidos">PRODUTOS MAIS VENDIDOS</a>
+	<a class="a-menu" href="index.html#secao-produtosaamostra">PRODUTOS À AMOSTRA</a>
+	<a class="a-menu" href="index.html#secaomaisinformaçoes">MAIS INFORMAÇÕES</a>
+	<a class="a-menu" href="Agendamento.html">AGENDAMENTOS</a>
+	</nav>
+
+	
+
+<section id="pag-encomendas">
+	<h1>Thainá Doceria</h1><br>
+	<p> Faça sua Encomenda! </p>
+
+    <form name="frm=AGENDAMENTOS" method="GET" action="">
+            <label for="Nome">Nome:</label>
+            <input type="text" name="nome" id="nome" size="50"  maxlength="100" placeholder="Nome completo" required/>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="nome@email.com" size=""/>
+
+            <label for="Senha">Senha:</label>
+            <input type="password" name="senha" id="senha" placeholder="Somente números" size=""/>
+
+            <label for="Cel">Celular:</label>
+            <input type="tel" name="cel" id="cel" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" size=""/>
+            
+			<div id="data-hora-qtd">
+			
+			<div>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data"/>
+			</div>
+			<div>
+            <label for="">Hora:</label><br>
+            <input type="time" name="Hora" id="Hora"/>
+			</div>
+			<div>
+            <label for="">Quantidade:</label>
+            <input type="number" name="" id="" min="4" max="100" step="1"/>
+			</div>
+			</div>
+			
+            <label for="nivel">Sabores</label>
+            <select id="nivel" name="Sabores">
+                <option value="">Selecione</option>
+                <option value="brigadeiros">Brigadeiros</option>
+                <option value="brownie">Brownie</option>
+                <option value="cone trufado">Cone Trufado</option>
+                <option value=" bolo piscininha">Bolo Piscininha</option>
+            </select> 
+              
+
+             <fieldset>
+             <legend>Tipos</legend>
+                
+            <input type="checkbox" name="Tipos" value="Chocolate ao leite" id="Chocolate ao leite" />
+            <label for="Chocolate ao leite">Chocolate ao leite</label><br>
+                
+            <input type="checkbox" name="Tipos" value="Chocolate meio amargo" id="Chocolate meio amargo" />
+            <label for="Chocolate meio amargo">Chocolate meio amargo</label><br>
+                
+            <input type="checkbox" name="Tipos" value="Chocolate amargo" id="Chocolate amargo" />
+            <label for="Chocolate amargo">Chocolate amargo</label><br>
+                
+            <input type="checkbox" name="Tipos" value="Chocolate sem lactose" id="Chocolate sem lactose" />
+            <label for="Chocolate sem lactose">Chocolate sem lactose</label>
+                
+            </fieldset>
+
+
+           <fieldset>
+            <legend>Forma de pagamento</legend>
+            <input type="radio" name="forma de pagamento" value="Dinheiro" id="Dinheiro"/>
+            <label for="Dinheiro">Dinheiro</label><br>
+            <input type="radio" name="forma de pagamento" value="Cartão" id="Cartão"/>
+            <label for="Cartão">Cartão</label><br>
+           </fieldset>
+
+           <label for="msg">Mensagem</label><br>
+           <textarea id="msg" name="msg" cols="45"rows="4"></textarea>
+
+
+            <div id="botoes-form">
+            <input type="submit"name="bt-enviar" value="Enviar"/>
+            <input type="reset" name="bt-limpar" value="Limpar"/>
+			</div>
+    </form>
+
+</section>
+    
+	<footer>
+	<p>Desenvolvido por <a href= "https://www.instagram.com/thainanunes_f/" target="_blanck"> Thainá Cassiano</a> - 2022</p>
+ 	</footer>
+	</body>
+	</html>
